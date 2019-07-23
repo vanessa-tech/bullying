@@ -1,13 +1,45 @@
-<!DOCTYPE>
-<HTML>
+<!DOCTYPE html>
+<html>
 <head>
-<title> Prevent Bullying</title>
-</head>
+<style>
+body {margin:0}
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #4CAF50;
+}
+</style>
+</head>
 <body>
-<button><a href="home.html">home</a></button>
-<button><a href="types.html">types of bullying</a></button>
-<button><a href="prevention.html">preventions</a></button>
-<button><a href="collage.html">collage</a></button>
-<button><a href="ps.html">stories</a></button>
-<button><a href="stop_bullying.html">stop</a></button>
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>
+  <li><a href="types.html">Types of Bullying</a></li>
+  <li><a href="prevention.html">Prevention</a></li>
+  <li><a href="collage.html">Collage</a></li>
+  <li><a href="stories.html">Stories</a></li>
+  <li><a href="stop.html">Stop Bullying</a></li>
+</ul>
+</body>
+</html>
