@@ -8,7 +8,7 @@ body {
   height: 300px;
   perspective: 1000px;
 	float: left;
-	margin: 50px;
+	margin: 45px;
 }
 
 .flip-card-inner {
