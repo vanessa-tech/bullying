@@ -54,19 +54,19 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: red.png;
+  background-color: #ffffff;
 }
 li {
   float: center;
 }
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: red.png;
+  background-color: red;
 }
