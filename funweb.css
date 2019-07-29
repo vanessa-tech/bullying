@@ -68,5 +68,5 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #FF0000;
+  background-color: red.png;
 }
