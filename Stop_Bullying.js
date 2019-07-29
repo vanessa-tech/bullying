@@ -78,3 +78,7 @@ document.getElementById("affirmations").innerHTML= reset;
 //    document.getElementById("Input_Det").innerHTML = "Hello " + input + "! How are you today?";
 
 }
+function Popup() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}

@@ -16,15 +16,15 @@
 			</div>
 		<div>
 		<button onclick= "Pos_aff()" id= "Changing_aff"> Click to change affirmation!</button>
-		<button onclick= "Reset()"> Reset? </button>
+		<button onclick= "Reset()" id= "Change"> Reset? </button>
 		</div>
 		<div>
 			<p id= "affirmations"></p>
 		</div>
-
+		<div>
 		<!-- <div class="image"></div> -->
 		<h3 class= "PG"> Help us to reach out to others!</h3>
-
+		</div>
 		<!-- <div> -->
 		<!-- <form action="/action_page.php" name= "my form"> -->
   	<!-- First Name (option):<br> -->
@@ -52,7 +52,7 @@
 		<!-- </form> -->
 
 		<div class="container">
-<form action="/action_page.php">
+<!-- <form action="/action_page.php"> -->
 	<div class="row">
 		<div class="col-25">
 			<label for="fname">First Name</label>
@@ -99,9 +99,10 @@
 		</div>
 	</div>
 	<div class="row">
-		<input type="submit" value="Submit">
+		<input id= "popup" type="submit" value="Submit" onclick= "Popup()"><span class="popuptext" id="myPopup"></span>
+		
 	</div>
-</form>
+<!-- </form> -->
 </div>
 
 		</div>
