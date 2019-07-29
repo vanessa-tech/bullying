@@ -1,0 +1,67 @@
+h1{
+	font-family: Comic Sans Ms;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left:-30px;
+	margin-right: -7px;
+	background-color: #FD5E5E;
+	width:;
+	border-style: inset;
+  border-right: none;
+	opacity: 1;
+}
+
+div{
+	font-family: Comic Sans Ms;
+}
+
+}
+h1:hover {
+	opacity: .5;
+	font-family: comic sans-serif;
+	font-size-adjust: none;
+}
+.PG{
+  font-family: Comic Sans Ms;
+  margin-left: 0px;
+  margin-right: 70px;
+
+
+}
+.NG{
+  margin-left: 70%;
+  margin-top: -40px;;
+  margin-bottom: 100px;
+  font-family: arial;
+}
+
+.image{
+  align:"center";
+}
+.image2{
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+	background-color: #FD5E5E;
+	font-family: Comic Sans Ms;
+}
+
+button:hover{
+	color: pink;
+	font-family: serif;
+}
+
+#Changing_aff{
+	margin-left: ;
+}
+#Detect{
+	margin-top: 5%;
+	margin-left: 5%;
+}
+input{
+	font-family: Comic Sans Ms;
+}
