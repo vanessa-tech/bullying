@@ -6,7 +6,7 @@ ul {
   background: #ffffff;
 }
 li {
-  float: left;
+  float: center;
 }
 li a {
   display: block;
