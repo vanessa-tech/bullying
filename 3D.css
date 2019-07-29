@@ -34,9 +34,9 @@ body {
           transform: rotateX(-10deg);
 }
 
-#drag-container img, #drag-container video, #drag-container, #drag-container iframe:hover {
+#drag-container img, #drag-container video {
   -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+          transform-style: preserve-3d;
   position: absolute;
   left: 0;
   top: 0;
@@ -50,7 +50,7 @@ body {
   -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0005);
 }
 
-#drag-container img:hover, #drag-container video:hover, {
+#drag-container img:hover, #drag-container video:hover {
   -webkit-box-shadow: 0 0 15px #fffd;
           box-shadow: 0 0 15px #fffd;
   -webkit-box-reflect: below 10px linear-gradient(transparent, transparent, #0007);
@@ -119,4 +119,4 @@ body {
     -webkit-transform: rotateY(0deg);
             transform: rotateY(0deg);
   }
-} */
+}
