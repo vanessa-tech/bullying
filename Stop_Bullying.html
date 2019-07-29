@@ -2,31 +2,18 @@
 <html lang="en">
 
 	<head>
-		<link href="navigation.css" type="text/css" rel="stylesheet">
-
-		<ul>
-			<li> <a href="index.html"> Home</a></li>
-			<li><a href="types.html"> Types</a></li>
-			<li><a href="prevention.html">Prevention</a></li>
-			<li><a href="stories.html"> Stories</a></li>
-			<li><a href="Stop_Bullying.html"> Stop Bullying</a></li>
-			<li><a href="aboutus.html">about us</a></li>
-
-
-			</ul>
     	<h1><center>STOP BULLYING</center></h1>
   </head>
   <link rel= "stylesheet" href="Stop_Bullying.css">
 	<!-- 	<script src="Stop_Bullying.js"></script> -->
 	<script type ="text/javascript" src="Stop_Bullying.js"></script>
-	<body background="images/red.png">
+	<body>
     <div>
     <h3 class= "PG"> Positivity Generator </h3>
 
-		<div> <p>For those who are visiting this site for the first time and are encountering tough situations with bullying, we encourage you to stand up for yourselves and believe in the present you. You are UNIQUE. SPECIAL. WONDERFUL IN YOUR OWN WAY. NO ONE ELSE IS LIKE YOU. And maybe that is what makes the difference in the long run...</p></div>
-			<div id= "Display">Click below to find your words of encouragement
+		<div> <p>For those who are visiting this site for the first time and are encountering tough situations with bullying, we encourage you to stand up for yourselves and believe in the present you. You are UNIQUE. SPECIAL. WONDERFUL IN YOUR OWN WAY. NO ONE ELSE IS LIKE YOU. And maybe that is what makes the difference in the long run...</p>
+			<div id= "Click"> Click below to find your words of encouragement </div>
 			</div>
-		</div>
 		<div>
 		<button onclick= "Pos_aff()" id= "Changing_aff"> Click to change affirmation!</button>
 		<button onclick= "Reset()"> Reset? </button>
@@ -38,10 +25,10 @@
 		<!-- <div class="image"></div> -->
 		<h3 class= "PG"> Help us to reach out to others!</h3>
 
-		<div>
-		<form action="/action_page.php" name= "my form">
-  	First Name (option):<br>
-  	<input type="text" name="firstname" value="">
+		<!-- <div> -->
+		<!-- <form action="/action_page.php" name= "my form"> -->
+  	<!-- First Name (option):<br> -->
+  	<!-- <input type="text" name="firstname" value="">
   	<br></br>
   	Last Name (option):<br>
   	<input type="text" name="lastname" value="">
@@ -54,15 +41,69 @@
 		Are you a victim of bullying? Have you noticed anyone experiencing bullying from others? Please tell us your experience to help others just like you:<br></br>
 		<!-- <label for="Description">Description:</label>  -->
 
-		Situation:<br>
+		<!-- Situation:<br>
 		<input type="text" name="firstname" value=""><br></br>
 
 		<textarea rows="4" cols="60" name="Description" id="Description"></textarea>
 
-		<input type="submit" value="Submit">
+		<input type="submit" value="Submit"> -->
 		<!-- <div class="popup" onclick="myFunction()">Click me! -->
   	<!-- <span class="popuptext" id="myPopup">Popup text...</span></div> -->
-		</form>
+		<!-- </form> -->
+
+		<div class="container">
+<form action="/action_page.php">
+	<div class="row">
+		<div class="col-25">
+			<label for="fname">First Name</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="fname" name="firstname" placeholder="Your name..">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="lname">Last Name</label>
+		</div>
+		<div class="col-75">
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="country">Country</label>
+		</div>
+		<div class="col-75">
+			<select id="country" name="country">
+				<option value="usa">Usa</option>
+				<option value="australia">Australia</option>
+				<option value="canada">Canada</option>
+				<option value="china">China</option>
+				<option value="france">France</option>
+				<option value="norway">Norway</option>
+				<option value="switzerland">Switzerland</option>
+				<option value="sweden">Sweden</option>
+				<option value="usa">Usa</option>
+
+				<option value="other">Other</option>
+
+			</select>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-25">
+			<label for="Situation">Situation:</label>
+		</div>
+		<div class="col-75">
+			<textarea id="subject" name="subject" placeholder="Are you a victim of bullying? Have you noticed anyone experiencing bullying from others? Please tell us your experience to help others just like you:" style="height:200px"></textarea>
+		</div>
+	</div>
+	<div class="row">
+		<input type="submit" value="Submit">
+	</div>
+</form>
+</div>
+
 		</div>
 		<string>
     </string>
