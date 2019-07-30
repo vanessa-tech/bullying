@@ -30,3 +30,8 @@ li a:hover {
   border-radius: 5px;
   
 }
+.subsections:hover{
+  border-style: solid;
+  opacity:.75;
+  border-color: ;
+  border-radius: 7px;
