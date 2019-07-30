@@ -23,16 +23,14 @@ li a:hover {
   opacity: .5;
 }
 
+
 .subsection1, .subsection2, .subsection3 {
   border-style: dashed;
   border-color: white;
   border-width: 5px;
   border-radius: 5px;
-  
-}
-
-.subsection1, .subsection2 .subsection3{
   text-align: center;
+  
 }
 
 
@@ -49,7 +47,7 @@ li a:hover {
    border-width 7px;
    border-radius: 5px;
    background-color: pink;
-  }
+ }
 
 .grid {
   display: grid;
