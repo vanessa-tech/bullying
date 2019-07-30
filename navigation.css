@@ -24,8 +24,9 @@ li a:hover {
 }
 
 .subsections{
-  border-style: solid;
+  border-style: dashed;
   border-color: white;
   border-width: 5px;
   border-radius: 5px;
+  
 }
