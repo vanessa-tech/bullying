@@ -3,19 +3,17 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: black;
   border-radius: 20px;
 }
 
 li {
   float: left;
   opacity: 1;
-  background: black;
-
+	
 }
 li a {
   display: block;
-  color: #f5c6c6;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
