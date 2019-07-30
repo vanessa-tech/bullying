@@ -9,11 +9,12 @@ ul {
 li {
   float: left;
   opacity: 1;
+  color: #d65454
 	
 }
 li a {
   display: block;
-  color: white;
+  color:;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
