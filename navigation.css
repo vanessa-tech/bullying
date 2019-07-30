@@ -41,7 +41,7 @@ li a:hover {
   border-radius: 10px;
 }
 
- .para1, .para2, .para3 {
+ .para1, .para2, .para3, p {
    border-style: solid;
    border-color: pink;
    border-width 7px;
@@ -49,7 +49,7 @@ li a:hover {
    background-color: pink;
  }
 
-.para1:hover, .para2:hover, .para3:hover {
+.para1:hover, .para2:hover, .para3:hover, p: hover{
    border-color: white;
    background-color: pink;
  }
