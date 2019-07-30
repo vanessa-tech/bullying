@@ -22,3 +22,8 @@ li a:hover {
   background-color: #962626;
   opacity: .5;
 }
+
+.subsections{
+  border-style: solid;
+  border-width: 10px;
+}
