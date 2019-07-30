@@ -4,7 +4,7 @@ ul {
   padding: 0;
   overflow: hidden;
   border-radius: 20px;
-  background-color: #d65454;
+
 }
 
 li {
@@ -21,7 +21,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #d65454;
+  background-color: black;
   opacity: .5
 }
 
