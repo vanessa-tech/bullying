@@ -119,6 +119,16 @@
 </div>
 
 		</div>
+	   
+<?php
+if( $_POST["fname"] || $_POST["lname"] || $_POST["radio"]|| $_POST["country"])
+{
+echo "Name: ". $_POST['fname']. . $_POST['lname']. "<br />";
+echo "Your name is: ". $_POST["email"]. "<br />";
+echo "Country: ". $_POST["country"];
+}
+?>
+
 		<string>
     </string>
 
