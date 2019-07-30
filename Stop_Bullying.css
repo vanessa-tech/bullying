@@ -9,7 +9,7 @@ ul {
 li {
   float: left;
   opacity: 1;
-  color: #d65454;
+
 	
 }
 li a {
@@ -21,7 +21,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #962626;
+  background-color: black;
   opacity: .5
 }
 
