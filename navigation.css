@@ -23,14 +23,26 @@ li a:hover {
   opacity: .5;
 }
 
-.subsections{
+.subsection1, .subsection2, .subsection3 {
   border-style: dashed;
   border-color: white;
   border-width: 5px;
   border-radius: 5px;
   
 }
-.subsections:hover{
+
+.subsection1, .para1{
+  float: left;
+}
+
+.subsection2, .para3{
+  float: center;
+}
+.subsection3, .para3{
+  float: right;
+}
+
+.subsection1:hover{
   border-style: solid;
   opacity:.75;
   border-color: ;
