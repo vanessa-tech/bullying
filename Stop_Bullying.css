@@ -23,6 +23,10 @@ li a:hover {
   opacity: .5
 }
 
+#head{
+	float: center;
+}
+
 h1{
 	font-family: Comic Sans Ms;
 	margin-top: 0%;
