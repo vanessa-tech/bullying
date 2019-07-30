@@ -3,25 +3,23 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background: #ffff;
   border-radius: 20px;
-
 }
-
 li {
   float: left;
   opacity: 1;
 
-	
 }
 li a {
   display: block;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
-  background-color: black;
+  background-color: #962626;
   opacity: .5
 }
 
