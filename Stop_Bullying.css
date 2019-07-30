@@ -20,12 +20,9 @@ li a {
 }
 li a:hover {
   background-color: #962626;
-  opacity: .5
+  opacity: .5;
 }
 
-#head{
-	float: center;
-}
 
 h1{
 	font-family: Comic Sans Ms;
