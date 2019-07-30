@@ -38,8 +38,8 @@ li a:hover {
 }
 
  .para {
-   border-style: dotted;
-   border-color: red;
+   border-style: solid;
+   border-color: pink;
    border-width 7px;
    border-radius: 5px;
    background-color: pink;
