@@ -59,7 +59,7 @@ li a:hover {
   padding: 10px;
 }
 
-.grid > div {
+.grid > .para1, .para2, .para3 {
   background-color: #F35B5B;
   text-align: center;
   padding: 20px 0;
