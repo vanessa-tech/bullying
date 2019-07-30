@@ -34,4 +34,12 @@ li a:hover {
   border-style: solid;
   opacity:.75;
   border-color: ;
-  border-radius: 7px;
+  border-radius: 10px;
+ 
+ .para {
+   border-style: dotted;
+   border-color: red;
+   border-width 7px;
+   border-radius: 5px;
+   background-color: pink;
+  }
