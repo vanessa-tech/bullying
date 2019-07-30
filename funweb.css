@@ -71,7 +71,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #962626;
+  background-color: #F26267;
   opacity: .5;
 }
 
@@ -97,7 +97,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: red;
+  background-color: ;
 
 }
 */
