@@ -122,9 +122,9 @@ body {
 }
 
 .rotateimg180 {
-  -webkit-transform:rotate(70deg);
-  -moz-transform: rotate(70deg);
-  -ms-transform: rotate(70deg);
-  -o-transform: rotate(70deg);
-  transform: rotate(70deg);
+  -webkit-transform:rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg);
 }
