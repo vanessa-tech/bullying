@@ -31,18 +31,12 @@ li a:hover {
   
 }
 
-.subsection1, .para1{
-  
+.subsection1, .subsection2 .subsection3{
+  align: center;
 }
 
-.subsection2, .para3{
-  
-}
-.subsection3, .para3{
 
-}
-
-.subsection1:hover{
+.subsection1, .subsection2, .subsection3,:hover{
   border-style: solid;
   opacity:.75;
   border-color: ;
