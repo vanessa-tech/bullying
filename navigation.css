@@ -8,7 +8,6 @@ ul {
 }
 li {
   float: left;
-  opacity: .5;
 }
 li a {
   display: block;
@@ -18,5 +17,6 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #FF0000;
+  background-color: #FF000;
+  opacity: .5
 }
