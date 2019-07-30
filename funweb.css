@@ -58,7 +58,7 @@ ul {
   border-radius: 20px;
 }
 li {
-  float: center;
+  float: left;
 }
 li a {
   display: block;
