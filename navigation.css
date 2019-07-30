@@ -26,6 +26,6 @@ li a:hover {
 .subsections{
   border-style: solid;
   border-color: white;
-  border-width: 2em;
+  border-width: 7px;
   border-radius: 10px;
 }
