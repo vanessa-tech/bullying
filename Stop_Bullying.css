@@ -1,3 +1,6 @@
+h1{
+  margin-top: 5%;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -19,21 +22,17 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #962626;
+  background-color:  #962626;
   opacity: .5;
 }
 
-
-h1{
-  font-family: Comic Sans Ms;
-  margin-top: 5%;
-}
 
 div{
 	font-family: Comic Sans Ms;
 }
 
 }
+
 /* h1:hover { 
 	opacity: .5;
 	font-family: comic sans-serif;
