@@ -80,6 +80,7 @@ body {
 #navbar {
   /* background-color: #333; */
   position: fixed;
+  opacity: .75;
   top: -50px;
   width: 100%;
   display: block;
