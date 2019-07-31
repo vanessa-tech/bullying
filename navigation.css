@@ -50,7 +50,7 @@ li a:hover {
  .para1, .para2, .para3 {
    border-style: solid;
    border-color: pink;
-   border-width 7px;
+   border-width: ;
    border-radius: 5px;
    background-color: pink;
  }
