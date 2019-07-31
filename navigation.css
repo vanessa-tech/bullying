@@ -1,5 +1,5 @@
 body {
-    font-family: 'ABeeZee';font-size: 22px;
+    font-family: 'ABeeZee';font-size: 30px;
 }
 
 h1{
@@ -7,7 +7,6 @@ h1{
   margin-top: 5%;
 }
 ul {
-  font-size: 20px;
   list-style-type: none;
   margin: 0;
   padding: 0;
