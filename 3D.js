@@ -18,7 +18,7 @@ var bgMusicControls = false; // Show UI music control
 
 
 // ===================== start =======================
-setTimeout(init, 5000);
+setTimeout(init, 2000);
 
 
 var odrag; var ospin; var aImg; var aVid; var aEle; var ground;
