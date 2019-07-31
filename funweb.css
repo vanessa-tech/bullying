@@ -3,6 +3,7 @@ body {
 }
 
 .flip-card {
+  z-index: -1;
   background-color: transparent;
   width: 300px;
   height: 300px;
@@ -51,6 +52,7 @@ body {
 }
 
 ul {
+  z-index: 1;
   list-style-type: none;
   margin: 0;
   padding: 0;
