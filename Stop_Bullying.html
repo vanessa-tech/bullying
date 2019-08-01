@@ -101,12 +101,12 @@
 
 		</div>
 	   
-<?my form
+<?php
 if( $_POST["fname"] || $_POST["lname"] || $_POST["radio"]|| $_POST["country"])
 {
 echo "Name: ". $_POST['fname']. . $_POST['lname']. "<br />";
-echo "Your name is: ". $_POST["email"]. "<br />";
-echo "Country: ". $_POST["country"];
+echo "Your name is: ". $_POST['fname']. "<br />";
+echo "Country: ". $_POST["country"];"<br/>";
 }
 ?>
 
